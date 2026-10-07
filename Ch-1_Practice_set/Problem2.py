@@ -3,11 +3,9 @@
 import pyttsx3
 engine = pyttsx3.init()
 
-# For Mac, If you face error related to "pyobjc" when running the `init()` method :
-# Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
-
 engine.say("I will speak this text for you so that you can hear it." \
 "i made this program using pyttsx3 module in python and." \
 " it is long because i cant hear what it says because of my laptop which is not working properly so," \
 " i made this program to hear what it says and it is very useful for me and i hope it will be useful for you too")
+
 engine.runAndWait()
